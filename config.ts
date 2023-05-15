@@ -1,12 +1,12 @@
-const dotenv = require('dotenv')
+// const dotenv = require('dotenv')
 const assert = require('assert')
 
-dotenv.config()
+// dotenv.config()
 
-const {
-  SECRETKEY
-} = process.env
+// const {
+//   SECRETKEY
+// } = process.env
 
 module.exports = {
-  secretKey: SECRETKEY
+  secretKey: 'OK'
 }
